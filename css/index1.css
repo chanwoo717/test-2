@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Prociono&display=swap');
+
+body {
+    font-family: 'Prociono', serif;
+    color: #58412A;
+    margin: 50px 190px;
+    margin-bottom: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1500px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav>a {
+    margin: 30px 30px;
+}
+
+header>div img {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+main>p img {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    width: 1500px;
+    height: 600px;
+}
+
+h2 {
+    margin: 5%;
+}
+
+.swiper-slide {
+    margin: 0;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.swiper-slide figcaption {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 191px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #EEE7E1;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    opacity: 0;
+    transition: 1s;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide:hover>figcaption {
+    opacity: 1;
+}
+
+.twinpost {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.twinpost2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.twinpost>div img {
+    width: 100%;
+    display: flex;
+    margin: 30% 0;
+    ;
+}
+
+.twin-text {
+    font-size: 28px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.twin-text2 {
+    text-align: right;
+    align-items: flex-end;
+}
+
+a:link {
+    color: #58412A;
+    text-decoration: none;
+}
+
+.bigfoot {
+    font-size: 14px;
+    background-color: #EEE7E1;
+    margin-bottom: 0;
+    margin-top: 200px;
+    width: 100%;
+    height: 340px;
+}
+
+.rerave {
+    position: relative;
+    top: 200px;
+    left: 192px;
+    display: flex;
+    flex-direction: column;
+}
+.rerave>p{
+    font-size: 24px;
+}
+
+.rightfoot {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.sitemap {
+    width: 15%;
+    text-decoration: underline;
+}
+
+.info {
+    width: 25%;
+}
+
+.cscenter {
+    width: 10%;
+
+}
